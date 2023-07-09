@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">
-  <title>Page Title</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <title>My profile</title>
 </head>
-
 <body>
-
-  <h1>This is a Heading</h1>
-  <p>This is a paragraph.</p>
-  <p>Make more commit xD</p>
-
+  <header class="header">
+    <div class="header-container">
+      <div class="photo">
+        <img class="photo-image" src="yan1.jpg">
+      </div>
+      <h1>Yan Makarevich</h1>
+        <nav class="navigation">
+          <ul class="nav">
+            <li class="nav-link"><a href="#about-me">About me</a></li>
+            <li class="nav-link"><a href="#contacts">Contacts</a></li>
+            <li class="nav-link"><a href="#code">Code</a></li>
+            <li class="nav-link"><a href="#skills">Skills</a></li>
+            <li class="nav-link"><a href="#english">English</a></li>
+            <li class="nav-link"><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main"> 
+    <div class="container" class="about-me">
+    <h2>About me</h2>
+    <p>My main job is a history teacher. But I would like to learn programming. The main direction is frontend development. Language learning - JavaScript. In my free time I like to read books and play games. 
+    </p>
+  </div>
+  <div class="container" class="contacts">
+    <h2>Contacts</h2>
+      <ul> 
+        <li class="li-info">Minsk, Belarus</li>
+        <li class="li-info">Email: yanmakar@gmail.com</li>
+        <li class="li-info">Github: Makarosh-a</li>
+        <li class="li-info">Discord: makarosha</li>
+      </ul>
+  </div>
+  <div class="code">
+    <h2>Code</h2>
+    <code>function factorial(n) { <br>
+      if(n &lt; 3) return null; <br>
+      if (n &lt;=5) return 1; <br>
+      return n * factorial(n-1);
+    }</code></pre>
+  </div> 
+  <div class="container" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li class="li-info">HTML, CSS, JS</li>
+      <li class="li-info">Figma, Paint</li>
+      <li class="li-info">Git</li>
+    </ul>
+  </div>
+  <div class="container" class="english">
+    <h2>English</h2>
+    <p>A2/B1 - Pre-intermidiate/Intermidiate</p>
+  </div>
+  <div class="container" class="education">
+    <h2>Education</h2>
+    <p>Belarus State University</p>
+  </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">  
+      <p>2023</p>
+      <a href="https://github.com/Makarosh-a"><p>My GitHub</p></a>
+      <a href="https://rs.school/js/"><img class="rss-image" src="rss.jpg"></a>
+    </div>  
+  </footer>
 </body>
 </html>
